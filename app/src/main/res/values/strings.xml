@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">toybox</string>
+
+    <string name="title_almacen">Almacen</string>
+    <string name="title_tienda">Tiendas</string>
+    <string name="title_pedidos">Pedidos</string>
+    <string name="title_colaboradores">Colaboradores</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="warehouse">Almacen</string>
+    <string name="buscar">Buscar</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

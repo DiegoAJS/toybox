@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/barcode_scan"/>
+       <TextView
+           android:id="@+id/tv_number_scanners"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="#FFFFFF"
+           android:layout_gravity="center"
+           android:padding="16dp"
+           style="@style/Titulo"
+           android:text="number"/>
+
+       <TextView
+           android:id="@+id/bt_scanner_now"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#FFFFFF"
+           android:background="@color/colorAccent"
+           android:layout_margin="16dp"
+           android:padding="8dp"
+           android:layout_gravity="center_horizontal|bottom"
+           style="@style/Button"
+           android:text="Escanear Ahora"/>
+   </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp">
+        <TextView
+            android:id="@+id/tv_cancel_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Contenido"
+            android:drawableLeft="@drawable/ic_cancel"
+            android:gravity="center_vertical"
+            android:text=" cancel"/>
+
+        <TextView
+            android:id="@+id/tv_next_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            style="@style/Contenido"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/ic_chevron_right"
+            android:text="next"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

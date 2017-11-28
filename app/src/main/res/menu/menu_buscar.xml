@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_search_warehoouse"
+        android:title="@string/buscar"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/menu_scanner_warehoouse"
+        android:title="Escanear"
+        android:icon="@drawable/ic_barcode_scan"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/menu_edit_warehoouse"
+        android:title="Editar"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/menu_delete_warehoouse"
+        android:title="Eliminar"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"
+        />
+</menu>
